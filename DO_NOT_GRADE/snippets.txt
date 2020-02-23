@@ -1,0 +1,59 @@
+.gutter .row > div {
+  border-right: 50px;
+  border-left: 50px;
+  border-color: red;
+  min-height: 80px;
+  padding: 20px 20px 20px 20px;
+}
+
+.row {
+  background-color: rgb(218, 216, 216);
+  }
+
+
+
+  <div class="h-divider">
+  </div>
+
+
+  background: white;
+
+    <div class="row">
+      <div class="col-12 col-sm-8 col-lg-8 bg-light">
+        <div><h1>Summary: Latitude vs Weather</h1></div>
+      </div>
+      <div class="col-12 col-sm-4 col-lg-4 bg-light">
+        <div><h1>Visualizations</h1></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-8 col-lg-8 bg-light"><div class="h-divider"></div></div>
+      <div class="col-12 col-sm-4 col-lg-4 bg-light"><div class="h-divider"></div></div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-8 col-lg-8 bg-light">
+          <div class="image-wrapper float-left pr-3">
+              <img src="Visualizations/plot_lat_vs_max_temp.png" alt="max_temp_page">
+          </div>
+          <div class="single-post-content-wrapper p-3">
+            <p>This project is designed to show the relationships between weather and latitude. 
+            Weather data from the OpenWeather API was used to prepare data analysis for over 500 cities. </p>
+            <br>
+            <p>After the data was prepared, the Python library Matplotlib was used to plot the data to show 
+            the relationships between weather and latitude. Temperature, cloudiness, wind speed and 
+            humidity measurements were analysed. This site provides insight into the data used for 
+            the analysis, a variety of visualizations and descriptive conclusions regarding observed 
+            trends and correlations.</p>
+          </div>
+          
+      </div>
+    </div>
+
+ .gutter .big-box .mini-box {
+  border-right: 15px solid rgb(218, 216, 216);
+  border-left: 15px solid rgb(218, 216, 216);
+}
+
+.gutter .row > div {
+  padding: 20px 20px 20px 20px;
+}

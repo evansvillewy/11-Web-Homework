@@ -1,0 +1,3 @@
+This project is designed to show the relationships between weather and latitude. Weather data from the OpenWeather API was used to prepare data analysis for over 500 cities.
+
+After the data was prepared, the Python library Matplotlib was used to plot the data to show the relationships between weather and latitude. Temperature, cloudiness, wind speed and humidity measurements were analysed. This site provides insight into the data used for the analysis, a variety of visualizations and descriptive conclusions regarding observed trends and correlations.

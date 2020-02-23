@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/getting-started/javascript/#util"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container-fluid gutter">  
+    <!--Nav -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-1">
+        <a href="landing_page.html" class="navbar-brand">
+          <img class="img-fluid" src=".\Images\logo.png" width="100px" height="100px" alt="logo">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="max_temp_page.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity_page.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness_page.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_page.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+            <a href="comparison_page.html" class="nav-link">Comparison</a>
+            </li>
+            <li class="nav-item">
+            <a href="data_page.html" class="nav-link">Data</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+    
+      <div class="row">
+        <div class="col big-box col-md-8">
+          <div class="row">
+            <div class="col">
+              <h1>Wind Speed</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">          
+              <div class="h-divider"></div>
+            </div>
+          </div>     
+          <div class="row">
+            <div class="col d-flex justify-content-center" >                    
+                <img src="Visualizations/plot_lat_vs_wind.png"  width="700px" height="500px" alt="max_temp_page">
+            </div>
+          </div>                 
+          <div class="row">
+            <div class="col">
+              <p>For the data we analysed, latitude does not seem to impact wind speed however wind speed is generally below 20 mph.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col big-box">
+          <div><h1>Visualizations</h1></div>
+          <div class="h-divider"></div>
+          <div class="row ">      
+            <div class="col-md-4  col-md-2 d-flex align-content-center">
+                
+                <a href="max_temp_page.html">
+                    <img class="img-responsive" src="Visualizations/plot_lat_vs_max_temp.png"  alt="max_temp_page">
+                </a>
+            </div>
+            <div class="col-md-4  col-md-2   d-flex align-content-center">
+                <a href="cloudiness_page.html">
+                    <img class="img-responsive" src="Visualizations/plot_lat_vs_cloudiness.png"   alt="cloudiness_page">
+                </a>
+            </div>    
+            <div class="col-md-4  col-md-2  d-flex align-content-center">
+                
+                <a href="humidity_page.html">
+                    <img class="img-responsive" src="Visualizations/plot_lat_vs_humidity.png"  alt="max_temp_page">
+                </a>
+            </div>
+            <div class="col-md-4  col-md-2   d-flex align-content-center" style="text-align: center">
+                <a href="wind_page.html" style="text-align: center">
+                    <img class="img-responsive" src="Visualizations/plot_lat_vs_wind.png"  style="text-align: center"  alt="cloudiness_page">
+                </a>
+            </div>
+          </div>  
+        </div>
+    
+      </div>
+  </div>
+</body>
+</html>
