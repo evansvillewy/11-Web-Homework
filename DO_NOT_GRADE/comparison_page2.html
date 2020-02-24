@@ -13,7 +13,7 @@
 <body>
   <div class="container-fluid gutter">  
     <!--Nav -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-1">
+    <nav class="navbar navbar-expand-md navbar-light bg-light static-top">
         <a href="landing_page.html" class="navbar-brand">
           <img class="img-fluid" src=".\Images\logo.png" width="100px" height="100px" alt="logo">
         </a>
@@ -35,53 +35,58 @@
             <a href="comparison_page.html" class="nav-link">Comparison</a>
             </li>
             <li class="nav-item">
-            <a href="?page=Data" class="nav-link">Data</a>
+            <a href="data_page.html" class="nav-link">Data</a>
             </li>
           </ul>
       </div>
     </nav>
     
-      <div class="row">
-        <div class="col big-box">
-          <div class="row">
-            <div class="col ">
-              <h1>Comparison: Latitude vs. Weather</h1>
-            </div>
-          </div>    
-          <div class="row">
-            <div class="col">          
-              <div class="h-divider"></div>
-            </div>
-          </div> 
-          <div class="row">
-            <div class="col">          
-              <h4>Click any plot to get an in-depth analysis</h3>
-            </div>
-          </div>                                      
-          <div class="row horizontal">
-            <div class="col vertical">
-                <h3>vs. Max Temperature</h3>
-            </div>
-            <div class="col  ">
-                <div class="col vertical">
-                    <h3>vs. Cloudiness</h3>
+    <div class="container-fluid gutter ">
+        <section class="mini-box">
+        <div class="row ">
+            <div class="col-sm-12">
+                <section class="mini-box d-flex justify-content-center">
+                <div class="col-sm-12 ">
+                  <div class="row ">
+                    <div class="col-sm-12 ">
+                        <h1>Comparison: Latitude vs. Weather</h1>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">          
+                      <div class="h-divider"></div>
+                    </div>
+                  </div>  
                 </div>
-            </div> 
-          </div>       
-          <div class="row horizontal">      
-            <div class="col vertical">
-                <a href="max_temp_page.html">
-                    <img src="Visualizations/plot_lat_vs_max_temp.png" width="600px" height="400px" alt="max_temp_page">
-                </a>
             </div>
-            <div class="col  vertical">
-                <a href="cloudiness_page.html">
-                    <img src="Visualizations/plot_lat_vs_cloudiness.png" width="600px" height="400px" alt="cloudiness_page">
-                </a>
-            </div>
-          </div>
         </div>
-    </div>
-    </div>
+        <div class="row">
+            <div class="col-sm-5 ">
+                <a href="max_temp_page.html">
+                    <span><h3 class="h3" style="text-align: center;">vs. Max Temperature</h3></span>                    
+                    <img class="img-fluid comp" src="Visualizations/plot_lat_vs_max_temp.png" alt="Responsive image">                  
+                </a>
+            </div>
+            <div class="col-sm-5 ">
+                <a href="cloudiness_page.html">
+                    <span><h3 class="h3" style="text-align: center;">vs. Cloudiness</h3></span>                    
+                    <img class="img-fluid comp" src="Visualizations/plot_lat_vs_cloudiness.png" alt="Responsive image">                  
+                </a>
+            </div> 
+            <div class="col-sm-5 ">
+                <a href="humidity_page.html">
+                    <span><h3 class="h3" style="text-align: center;">vs. Humidity</h3></span>                    
+                    <img class="img-fluid comp" src="Visualizations/plot_lat_vs_humidity.png" alt="Responsive image">                  
+                </a>
+            </div>     
+            <div class="col-sm-5 ">
+                <a href="wind_page.html">
+                    <span><h3 class="h3" style="text-align: center;">vs. Wind Speed</h3></span>                    
+                    <img class="img-fluid comp" src="Visualizations/plot_lat_vs_wind.png" alt="Responsive image">                  
+                </a>
+            </div>                                
+        </div>
+    </div>        
+    </section>
 </body>
 </html>

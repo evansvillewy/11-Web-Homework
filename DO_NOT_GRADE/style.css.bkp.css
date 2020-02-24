@@ -1,0 +1,113 @@
+header {
+  background: rgb(191, 209, 188);
+}
+
+body {
+  background-color: rgb(218, 216, 216);
+}
+ 
+div{
+  border:1px solid black
+}
+.h3 { 
+  position: absolute;
+  left: 0; 
+  top: -30px;
+  width: 100%; 
+  padding:20px;
+  text-align: left;
+}
+
+h4{
+  padding: 20px;
+}  
+
+  @media(min-width: 480px) {
+    .navbar-brand img {
+      width: 30px;
+      height: 30px;
+    }
+    body{
+      padding-top: 15%;
+    }
+  }
+
+  @media(min-width: 768px) {
+    .navbar-brand img {
+      width: 40px;
+      height: 40px;
+    }
+    body{
+      padding-top: 10%;
+    }  
+  }
+
+@media(min-width: 992px) {
+    .navbar-brand img {
+      width: 50px;
+      height: 50px;
+    }
+    body{
+      padding-top: 10%;
+    }
+  }
+
+@media (min-width: 1200px) {
+  .navbar-brand img {
+    width: 60px;
+    height: 60px;
+  }
+  body{
+    padding-top: 7%;
+  } 
+}
+
+.gutter .big-box  {
+  padding: 1em;
+  background-color: white;
+}
+
+.h-divider{
+  margin-top:5px;
+  margin-bottom:5px;
+  height:1px;
+  width:100%;
+  border-top:1px solid gray;
+ }
+
+ .gutter .big-box {
+  border-right: 15px solid rgb(218, 216, 216);
+  border-left: 15px solid rgb(218, 216, 216);
+  border-top: 15px solid rgb(218, 216, 216);
+  border-bottom: 15px solid rgb(218, 216, 216);
+}
+
+div.horizontal {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+div.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.big-box {
+    padding: 1em;
+    background-color: white;
+    border-right: 15px solid rgb(218, 216, 216);
+    border-left: 15px solid rgb(218, 216, 216);
+    border-top: 15px solid rgb(218, 216, 216);
+    border-bottom: 15px solid rgb(218, 216, 216);
+  }
+
+  .col-lg-4 .col-lg-5 .col-lg-6 .col-lg-8 .col-lg-12
+  .col-sm-3 .col-sm-4 .col-sm-5 .col-sm-6 .col-sm-8 .col-sm-12{
+    background-color: white;
+    border-bottom-color:white;
+    border-top-color: white;
+  }  
+

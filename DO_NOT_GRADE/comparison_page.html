@@ -13,7 +13,7 @@
 <body>
   <div class="container-fluid gutter">  
     <!--Nav -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-1">
+    <nav class="navbar navbar-expand-md navbar-light bg-light static-top">
         <a href="landing_page.html" class="navbar-brand">
           <img class="img-fluid" src=".\Images\logo.png" width="100px" height="100px" alt="logo">
         </a>
@@ -42,59 +42,54 @@
     </nav>
     
       <div class="row">
-        <div class="col big-box col-md-8">
+        <div class="col big-box">
           <div class="row">
-            <div class="col">
-              <h1>Wind Speed</h1>
+            <div class="col ">
+              <h1>Comparison: Latitude vs. Weather</h1>
             </div>
-          </div>
+          </div>    
           <div class="row">
             <div class="col">          
               <div class="h-divider"></div>
             </div>
-          </div>     
+          </div> 
           <div class="row">
-            <div class="col d-flex justify-content-center" >                    
-                <img src="Visualizations/plot_lat_vs_wind.png"  width="700px" height="500px" alt="max_temp_page">
+            <div class="col">          
+              <h4>Click any plot to get an in-depth analysis</h3>
             </div>
-          </div>                 
-          <div class="row">
-            <div class="col">
-              <p>For the data we analysed, latitude does not seem to impact wind speed however wind speed is generally below 20 mph.</p>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col big-box">
-          <div><h1>Visualizations</h1></div>
-          <div class="h-divider"></div>
+          </div>                                          
           <div class="row ">      
-            <div class="col-md-4  col-md-2 d-flex align-content-center">
+            <div class="col-lg-6 col-md-6  d-flex align-content-center">
                 
                 <a href="max_temp_page.html">
                     <img class="img-responsive" src="Visualizations/plot_lat_vs_max_temp.png"  alt="max_temp_page">
+                    <span style="padding-left:200px;"><h3 class="h3" style="text-align: center;">vs. Max Temp</h3></span>
                 </a>
             </div>
-            <div class="col-md-4  col-md-2   d-flex align-content-center">
+            <div class="col-lg-6  col-md-6   d-flex align-content-center">
                 <a href="cloudiness_page.html">
                     <img class="img-responsive" src="Visualizations/plot_lat_vs_cloudiness.png"   alt="cloudiness_page">
+                    <span style="padding-left:200px;"><h3 class="h3" style="text-align: center;">vs. Cloudiness</h3></span>
                 </a>
-            </div>    
-            <div class="col-md-4  col-md-2  d-flex align-content-center">
+            </div>
+          </div>
+          <div class="row ">      
+            <div class="col-lg-6 col-md-6  d-flex align-content-center">
                 
                 <a href="humidity_page.html">
                     <img class="img-responsive" src="Visualizations/plot_lat_vs_humidity.png"  alt="max_temp_page">
+                    <span style="padding-left:200px;"><h3 class="h3" style="text-align: center;">vs. Humidity</h3></span>
                 </a>
             </div>
-            <div class="col-md-4  col-md-2   d-flex align-content-center" style="text-align: center">
+            <div class="col-lg-6  col-md-6   d-flex align-content-center" style="text-align: center">
                 <a href="wind_page.html" style="text-align: center">
                     <img class="img-responsive" src="Visualizations/plot_lat_vs_wind.png"  style="text-align: center"  alt="cloudiness_page">
+                    <span style="padding-left:200px;"><h3 class="h3" style="text-align: center">vs. Wind Speed</h3></span>
                 </a>
             </div>
-          </div>  
+          </div>          
         </div>
-    
-      </div>
-  </div>
+    </div>
+    </div>
 </body>
 </html>

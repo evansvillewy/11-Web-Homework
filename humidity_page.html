@@ -9,11 +9,12 @@
     <script src="https://getbootstrap.com/docs/4.1/getting-started/javascript/#util"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|EB+Garamond&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container-fluid gutter">  
+  <div class="container-fluid">  
     <!--Nav -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-1">
+    <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-light bg-light static-top ">
         <a href="landing_page.html" class="navbar-brand">
           <img class="img-fluid" src=".\Images\logo.png" width="100px" height="100px" alt="logo">
         </a>
@@ -40,61 +41,66 @@
           </ul>
       </div>
     </nav>
-    
-      <div class="row">
-        <div class="col big-box col-md-7">
-          <div class="row">
-            <div class="col">
+  </div>
+  
+  <div class="container-fluid gutter ">    
+      <div class="row ">
+        <div class="col-lg-7 col-sm-12">
+        <section class="mini-box d-flex justify-content-center">
+        <div class="col-sm-12 ">
+          <div class="row ">
+            <div class="col-sm-12 ">
               <h1>Humidity</h1>
             </div>
           </div>
           <div class="row">
-            <div class="col">          
+            <div class="col-sm-12">          
               <div class="h-divider"></div>
             </div>
           </div>     
           <div class="row">
-            <div class="col d-flex justify-content-center" >                    
-                <img src="Visualizations/plot_lat_vs_humidity.png"  width="700px" height="500px" alt="max_temp_page">
+            <div class="col-sm-12">                    
+                <img class="img-fluid" src="Visualizations/plot_lat_vs_humidity.png" style="width:100%;" alt="Responsive image">
             </div>
           </div>                 
           <div class="row">
-            <div class="col">
+            <div class="col-sm-12">
               <p>For the data analyzed, latitude does not seem to impact humidity however humnidity is generally above 40%.</p>
             </div>
-          </div>
+          </div>       
         </div>
+        </section>
+      </div>
     
-        <div class="col big-box">
+        <div class="col-lg-5 col-sm-12">
+          <section class="mini-box">
           <div><h1>Visualizations</h1></div>
           <div class="h-divider"></div>
-          <div class="row">
-            <div class="col mini-box ">
+          <div class="row justify-content-center">      
+            <div class="col-lg-5 col-sm-3 ">
               <a href="max_temp_page.html">
-                <img src="Visualizations/plot_lat_vs_max_temp.png" width="300px" height="200px" alt="max_temp_page">
+                <img class="img-fluid viz" src="Visualizations/plot_lat_vs_max_temp.png" alt="Responsive image">
               </a>
             </div>
-            <div class="col mini-box ">
+            <div class="col-lg-5 col-sm-3 ">
               <a href="cloudiness_page.html">
-                <img src="Visualizations/plot_lat_vs_cloudiness.png" width="300px" height="200px" alt="cloudiness_page">
+                <img class="img-fluid" src="Visualizations/plot_lat_vs_cloudiness.png" alt="Responsive image">
               </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col mini-box ">
+            </div>  
+            <div class="col-lg-5 col-sm-3 ">
               <a href="humidity_page.html">
-                <img src="Visualizations/plot_lat_vs_humidity.png" width="300px" height="200px" alt="humidity_page">
-              </a>
+                      <img class="img-fluid" src="Visualizations/plot_lat_vs_humidity.png" alt="Responsive image"'>
+                  </a>
+              </div>
+              <div class="col-lg-5 col-sm-3 ">
+                  <a href="wind_page.html" >
+                      <img class="img-fluid" src="Visualizations/plot_lat_vs_wind.png" alt="Responsive image">
+                  </a>
+              </div>
             </div>
-            <div class="col mini-box ">
-              <a href="wind_page.html">
-                <img src="Visualizations/plot_lat_vs_wind.png" width="300px" height="200px" alt="wind_page">
-              </a>
-            </div>
-          </div>
+          </section> 
         </div>
-    
       </div>
-  </div>
+      </div>
 </body>
 </html>
